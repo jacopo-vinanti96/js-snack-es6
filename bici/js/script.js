@@ -28,4 +28,6 @@ for (var i = 0; i < Biciclette.length; i++) {
   }
 }
 
-console.log(`La bici più leggera è la: ${nomeIniziale} e pesa ${pesoIniziale}g`);
+console.log( `La bici più leggera è la: ${nomeIniziale} peso: ${pesoIniziale}g` );
+
+//Correzione: si fa il confronto tra gli oggetti e solo dopo si richiama il nome e il peso dell' oggetto comparato
