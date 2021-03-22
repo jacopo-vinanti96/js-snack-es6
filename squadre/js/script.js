@@ -28,8 +28,8 @@ for (var i = 0; i < squadre.length; i++) {
 let falliSquadre = [];
 
 for (var i = 0; i < squadre.length; i++) {
-  const {nome, falli_subiti} = squadre[i];
-  const obj = { nome, falli_subiti};
+  const { nome, falli_subiti } = squadre[i];
+  const obj = { nome, falli_subiti };
   falliSquadre.push(obj);
 }
 
