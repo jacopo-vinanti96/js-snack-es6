@@ -1,9 +1,9 @@
 
-var num1 = 2;
-var num2 = 13;
+let num1 = 2;
+let num2 = 13;
 
 function printInterval (min, max) {
-  let interval = [];
+  const interval = [];
 
   for (var i = 1; i < max - min; i++) {
     interval.push( min + i );
